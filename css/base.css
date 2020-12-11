@@ -1,0 +1,119 @@
+html {
+	overflow-y: scroll;
+	margin-bottom: 1px;
+}
+body {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "MS P ゴシック", "MS PGothic", sans-serif;
+	font-size: 13px;
+	background: #FFF;
+}
+/*-----------------------------------------------------
+10px = 77%
+11px = 85%
+12px = 93%
+13px = 100%
+14px = 108%
+15px = 116%
+16px = 123.1%
+17px = 131%
+18px = 138.5%
+19px = 146.5%
+20px = 153.9%
+21px = 161.6%
+22px = 167%
+23px = 174%
+24px = 182%
+25px = 189%
+26px = 197%
+------------------------------------------------------*/
+
+/*clearfix*/
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+.clearfix {
+    overflow: hidden;/* ドリ表示用 */
+}
+
+/*javascript用*/
+.rollover {
+}
+
+
+/*---------------ここからが、メインのCSSです--------------------*/
+#wrap {
+	width: 940px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#wrap #header h1 {
+	height: 185px;
+}
+
+#wrap #menu li {
+	float: left;
+}
+#wrap #main {
+	margin: 0px 15px;
+	width: 910px;
+}
+#wrap #main .section {
+	margin-top: 30px;
+}
+
+#wrap #main .section h2 {
+	height: 50px;
+}
+
+#wrap #main .section .sentence {
+	background: url(../images/waku_m.gif) repeat-y top;
+	line-height: 1.7em;
+	padding: 10px 30px;
+	font-size: 108%;
+}
+#wrap #main .section .sentence .blogimage {
+	padding-left: 150px;
+}
+#wrap #main p {
+	font-size: 14px;
+	line-height: 1.8em;
+	padding-bottom: 15px;
+}
+#wrap #main .odd {
+	margin-top: 10px;
+}
+#wrap #main h3 {
+	font-size: 16px;
+	padding-top: 15px;
+}
+#wrap #main .odd img {
+	float: left;
+	padding: 10px;
+}
+#wrap #main .even img {
+	float: right;
+	padding: 10px;
+}
+
+
+
+
+#wrap #footer {
+	margin-top: 30px;
+}
+#wrap #footer address {
+	font-style: normal;
+	background: url(../images/footer.gif);
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	color: #FFFFFF;
+}
